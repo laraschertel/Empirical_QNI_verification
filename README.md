@@ -99,6 +99,15 @@ Training method selector:
 
 Example run: python main.py --task fairness --dataset adult --protected_attr race --
 
+### Notes on Reproducibility
+
+The models in this project are probabilistic (they rely on stochastic optimisers, random initialisation, DP noise, and random data shuffling).
+Exact numerical outputs (accuracy, p-values, TV distance, empirical ε, etc.) may vary slightly between runs.
+
+DP-SGD introduces additional randomness through Gaussian noise, so its variability may be larger.
+
+This behaviour is expected and consistent with the design of the experiments.
+
 ## Outputs
 
 Running any experiment automatically creates:
