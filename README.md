@@ -70,20 +70,20 @@ This README documents the code, how it is structured, and how to run the experim
   - Builds `TrainConfig` and `ExperimentConfig`.
   - Dispatches to `run_fairness_experiment` or `run_membership_experiment`.
 
-## How to Run the Code
+## How to Run the Cod
 
 ### Install Requirements
 
 pip install -r requirements.txt
 
-## Run (`main.py`)
+### Run (`main.py`)
 
 `main.py` parses the following arguments:
 
-### `--task {fairness,membership}`
+#### `--task {fairness,membership}`
 Selects which experiment to run.
 
-### `--dataset {adult,compas,mnist}`
+#### `--dataset {adult,compas,mnist}`
 - **Fairness:** `adult` or `compas`
 - **Membership:** only `mnist` is used (other values are ignored)
 
@@ -91,7 +91,7 @@ Selects which experiment to run.
 - Used **only for fairness experiments**
 - Ignored for membership experiments
 
-### `--dp`
+#### `--dp`
 Training method selector:
 - **DP-SGD:** --dp present
 -  **standard SGD:** --dp not present
