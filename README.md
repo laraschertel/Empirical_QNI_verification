@@ -70,7 +70,7 @@ This README documents the code, how it is structured, and how to run the experim
   - Builds `TrainConfig` and `ExperimentConfig`.
   - Dispatches to `run_fairness_experiment` or `run_membership_experiment`.
 
-## How to Run the Cod
+## How to Run the Experiments
 
 ### Install Requirements
 
