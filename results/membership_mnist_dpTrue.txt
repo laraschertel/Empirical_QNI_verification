@@ -1,0 +1,4 @@
+KS stat: 0.0826, p-value: 4.3437e-30
+Welch t stat: 10.4895, p-value: 1.1619e-25
+Total variation distance: 0.1157
+Empirical epsilon: 1.2602

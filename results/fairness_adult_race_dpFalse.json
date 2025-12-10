@@ -1,0 +1,15 @@
+{
+  "dataset": "adult",
+  "protected_attr": "race",
+  "dp": false,
+  "model_type": "logreg",
+  "global_metrics": {
+    "accuracy_overall": 0.7891652846876728,
+    "ks_stat": 0.017136539524599224,
+    "ks_pvalue": 0.14038798694643553,
+    "welch_t_stat": -1.045543443146395,
+    "welch_t_pvalue": 0.2957858509990009,
+    "tv_distance": 0.004054689779877663,
+    "epsilon_empirical": 0.5822724103927612
+  }
+}

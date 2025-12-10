@@ -1,0 +1,93 @@
+Dataset: compas, protected_attr: race
+
+=== Global Metrics (all groups pooled) ===
+Accuracy overall: 0.4424
+Accuracy per protected group:
+  Group 0 (African-Am): 0.6364
+  Group 1 (African-American): 0.4571
+  Group 2 (Arabic): 0.3750
+  Group 3 (Asian): 0.5000
+  Group 4 (Caucasian): 0.4107
+  Group 5 (Hispanic): 0.4577
+  Group 6 (Native American): 0.5000
+  Group 7 (Oriental): 0.2857
+  Group 8 (Other): 0.4972
+
+KS stat: 0.0135, p-value: 2.1715e-01
+Welch t stat: 2.4415, p-value: 1.4632e-02
+Total variation distance: 0.0310
+Empirical epsilon (naive): 3.1226
+
+=== Per-group Adjacency Analysis ===
+Group 0 (African-Am):
+  #samples: 11
+  Accuracy: 0.6364
+  KS stat: 0.1818, p-value: 9.9710e-01
+  Welch t stat: 0.3947, p-value: 6.9778e-01
+  Total variation distance: 0.0001
+  Empirical epsilon: 0.0004
+
+Group 1 (African-American):
+  #samples: 5327
+  Accuracy: 0.4571
+  KS stat: 0.0280, p-value: 3.0973e-02
+  Welch t stat: 3.9150, p-value: 9.0968e-05
+  Total variation distance: 0.0102
+  Empirical epsilon: 0.3680
+
+Group 2 (Arabic):
+  #samples: 16
+  Accuracy: 0.3750
+  KS stat: 0.1250, p-value: 9.9989e-01
+  Welch t stat: 0.3291, p-value: 7.4438e-01
+  Total variation distance: 0.0306
+  Empirical epsilon: 0.2708
+
+Group 3 (Asian):
+  #samples: 54
+  Accuracy: 0.5000
+  KS stat: 0.1111, p-value: 8.9706e-01
+  Welch t stat: 0.7374, p-value: 4.6252e-01
+  Total variation distance: 0.0484
+  Empirical epsilon: 0.3798
+
+Group 4 (Caucasian):
+  #samples: 4402
+  Accuracy: 0.4107
+  KS stat: 0.0388, p-value: 2.6047e-03
+  Welch t stat: 4.4537, p-value: 8.5458e-06
+  Total variation distance: 0.0277
+  Empirical epsilon: 1.5611
+
+Group 5 (Hispanic):
+  #samples: 1772
+  Accuracy: 0.4577
+  KS stat: 0.0457, p-value: 4.9306e-02
+  Welch t stat: 2.8088, p-value: 5.0004e-03
+  Total variation distance: 0.0327
+  Empirical epsilon: 0.3884
+
+Group 6 (Native American):
+  #samples: 46
+  Accuracy: 0.5000
+  KS stat: 0.0870, p-value: 9.9586e-01
+  Welch t stat: 0.4502, p-value: 6.5365e-01
+  Total variation distance: 0.0217
+  Empirical epsilon: 0.3474
+
+Group 7 (Oriental):
+  #samples: 14
+  Accuracy: 0.2857
+  KS stat: 0.3571, p-value: 3.4332e-01
+  Welch t stat: 0.3740, p-value: 7.1147e-01
+  Total variation distance: 0.0379
+  Empirical epsilon: 0.3718
+
+Group 8 (Other):
+  #samples: 527
+  Accuracy: 0.4972
+  KS stat: 0.3510, p-value: 3.2755e-29
+  Welch t stat: -14.9372, p-value: 3.5705e-44
+  Total variation distance: 0.2620
+  Empirical epsilon: 3.1226
+

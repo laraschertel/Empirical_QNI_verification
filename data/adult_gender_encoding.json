@@ -1,0 +1,16 @@
+{
+  "dataset": "adult",
+  "protected_attr": "gender",
+  "protected_values": [
+    0,
+    1
+  ],
+  "protected_categories": [
+    "Female",
+    "Male"
+  ],
+  "protected_label_map": {
+    "0": "Female",
+    "1": "Male"
+  }
+}

@@ -1,0 +1,9 @@
+Dataset: adult, protected_attr: gender
+
+=== Global Metrics (all groups pooled) ===
+Accuracy overall: 0.7720
+KS stat: 0.0008, p-value: 1.0000e+00
+Welch t stat: 0.0032, p-value: 9.9741e-01
+Total variation distance: 0.0000
+Empirical epsilon (naive): 0.0078
+

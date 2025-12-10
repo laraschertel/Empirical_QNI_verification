@@ -1,0 +1,15 @@
+{
+  "dataset": "compas",
+  "protected_attr": "gender",
+  "dp": false,
+  "model_type": "logreg",
+  "global_metrics": {
+    "accuracy_overall": 0.9438737776316871,
+    "ks_stat": 0.0050127372832607375,
+    "ks_pvalue": 0.9978255505706302,
+    "welch_t_stat": 0.12764783670356214,
+    "welch_t_pvalue": 0.8984287272294269,
+    "tv_distance": 0.001249687746167183,
+    "epsilon_empirical": 0.07635514438152313
+  }
+}

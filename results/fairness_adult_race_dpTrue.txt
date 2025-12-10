@@ -1,0 +1,9 @@
+Dataset: adult, protected_attr: race
+
+=== Global Metrics (all groups pooled) ===
+Accuracy overall: 0.7654
+KS stat: 0.0041, p-value: 1.0000e+00
+Welch t stat: 0.0524, p-value: 9.5823e-01
+Total variation distance: 0.0001
+Empirical epsilon (naive): 0.5225
+

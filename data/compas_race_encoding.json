@@ -1,0 +1,37 @@
+{
+  "dataset": "compas",
+  "protected_attr": "race",
+  "protected_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "protected_categories": [
+    "African-Am",
+    "African-American",
+    "Arabic",
+    "Asian",
+    "Caucasian",
+    "Hispanic",
+    "Native American",
+    "Oriental",
+    "Other"
+  ],
+  "protected_label_map": {
+    "0": "African-Am",
+    "1": "African-American",
+    "2": "Arabic",
+    "3": "Asian",
+    "4": "Caucasian",
+    "5": "Hispanic",
+    "6": "Native American",
+    "7": "Oriental",
+    "8": "Other"
+  }
+}

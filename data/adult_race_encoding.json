@@ -1,0 +1,25 @@
+{
+  "dataset": "adult",
+  "protected_attr": "race",
+  "protected_values": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "protected_categories": [
+    "Amer-Indian-Eskimo",
+    "Asian-Pac-Islander",
+    "Black",
+    "Other",
+    "White"
+  ],
+  "protected_label_map": {
+    "0": "Amer-Indian-Eskimo",
+    "1": "Asian-Pac-Islander",
+    "2": "Black",
+    "3": "Other",
+    "4": "White"
+  }
+}

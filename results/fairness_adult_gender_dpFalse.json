@@ -1,0 +1,15 @@
+{
+  "dataset": "adult",
+  "protected_attr": "gender",
+  "dp": false,
+  "model_type": "logreg",
+  "global_metrics": {
+    "accuracy_overall": 0.7914870093974572,
+    "ks_stat": 0.0017689331122166944,
+    "ks_pvalue": 0.9999999999999998,
+    "welch_t_stat": 0.030331649090916055,
+    "welch_t_pvalue": 0.9758028904978152,
+    "tv_distance": 0.00013810922973789275,
+    "epsilon_empirical": 0.2304680496454239
+  }
+}

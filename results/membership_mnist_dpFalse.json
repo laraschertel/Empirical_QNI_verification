@@ -1,0 +1,8 @@
+{
+  "ks_stat": 0.0363,
+  "ks_p_value": 3.779235062537168e-06,
+  "welch_t_stat": -0.5952240034393345,
+  "welch_t_p_value": 0.5517004892581194,
+  "total_variation_distance": 0.0341278538107872,
+  "empirical_epsilon": 13.139500617980957
+}

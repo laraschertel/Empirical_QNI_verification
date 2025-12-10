@@ -1,0 +1,9 @@
+Dataset: compas, protected_attr: gender
+
+=== Global Metrics (all groups pooled) ===
+Accuracy overall: 0.9439
+KS stat: 0.0050, p-value: 9.9783e-01
+Welch t stat: 0.1276, p-value: 8.9843e-01
+Total variation distance: 0.0012
+Empirical epsilon (naive): 0.0764
+

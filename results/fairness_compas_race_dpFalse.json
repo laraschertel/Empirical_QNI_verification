@@ -1,0 +1,136 @@
+{
+  "dataset": "compas",
+  "protected_attr": "race",
+  "dp": false,
+  "model_type": "logreg",
+  "global_metrics": {
+    "accuracy_overall": 0.44235352124250144,
+    "accuracy_by_group": {
+      "0": 0.6363636363636364,
+      "1": 0.45710531255866343,
+      "2": 0.375,
+      "3": 0.5,
+      "4": 0.41072239890958656,
+      "5": 0.45767494356659144,
+      "6": 0.5,
+      "7": 0.2857142857142857,
+      "8": 0.4971537001897533
+    },
+    "ks_stat": 0.01347686745007809,
+    "ks_pvalue": 0.21715251072552955,
+    "welch_t_stat": 2.4415357634068258,
+    "welch_t_pvalue": 0.014632019393349082,
+    "tv_distance": 0.030961817130446434,
+    "epsilon_empirical": 3.12255859375
+  },
+  "groups": [
+    {
+      "group_id": 0,
+      "group_label": "African-Am",
+      "num_samples": 11,
+      "accuracy": 0.6363636363636364,
+      "ks_stat": 0.18181818181818182,
+      "ks_pvalue": 0.9970968144342757,
+      "welch_t_stat": 0.3947426084240884,
+      "welch_t_pvalue": 0.6977817181481847,
+      "tv_distance": 6.94009504513815e-05,
+      "epsilon_empirical": 0.00044347942457534373
+    },
+    {
+      "group_id": 1,
+      "group_label": "African-American",
+      "num_samples": 5327,
+      "accuracy": 0.45710531255866343,
+      "ks_stat": 0.02797071522432889,
+      "ks_pvalue": 0.03097281571715857,
+      "welch_t_stat": 3.915033486150421,
+      "welch_t_pvalue": 9.096773183536485e-05,
+      "tv_distance": 0.01021537370979786,
+      "epsilon_empirical": 0.3679579794406891
+    },
+    {
+      "group_id": 2,
+      "group_label": "Arabic",
+      "num_samples": 16,
+      "accuracy": 0.375,
+      "ks_stat": 0.125,
+      "ks_pvalue": 0.9998909696588173,
+      "welch_t_stat": 0.32913719969563926,
+      "welch_t_pvalue": 0.7443822254889816,
+      "tv_distance": 0.030637629330158234,
+      "epsilon_empirical": 0.2708253860473633
+    },
+    {
+      "group_id": 3,
+      "group_label": "Asian",
+      "num_samples": 54,
+      "accuracy": 0.5,
+      "ks_stat": 0.1111111111111111,
+      "ks_pvalue": 0.897060064079704,
+      "welch_t_stat": 0.7373944260381566,
+      "welch_t_pvalue": 0.46251610313088476,
+      "tv_distance": 0.048438627272844315,
+      "epsilon_empirical": 0.37981322407722473
+    },
+    {
+      "group_id": 4,
+      "group_label": "Caucasian",
+      "num_samples": 4402,
+      "accuracy": 0.41072239890958656,
+      "ks_stat": 0.038845979100408906,
+      "ks_pvalue": 0.002604715350750849,
+      "welch_t_stat": 4.453684145945114,
+      "welch_t_pvalue": 8.54578034130303e-06,
+      "tv_distance": 0.027662083506584167,
+      "epsilon_empirical": 1.561056137084961
+    },
+    {
+      "group_id": 5,
+      "group_label": "Hispanic",
+      "num_samples": 1772,
+      "accuracy": 0.45767494356659144,
+      "ks_stat": 0.045711060948081264,
+      "ks_pvalue": 0.04930605571102318,
+      "welch_t_stat": 2.8087763602485665,
+      "welch_t_pvalue": 0.005000354839609901,
+      "tv_distance": 0.03267066180706024,
+      "epsilon_empirical": 0.3883996605873108
+    },
+    {
+      "group_id": 6,
+      "group_label": "Native American",
+      "num_samples": 46,
+      "accuracy": 0.5,
+      "ks_stat": 0.08695652173913043,
+      "ks_pvalue": 0.995862711499646,
+      "welch_t_stat": 0.4502126063788421,
+      "welch_t_pvalue": 0.6536524325805383,
+      "tv_distance": 0.02169344760477543,
+      "epsilon_empirical": 0.3473781943321228
+    },
+    {
+      "group_id": 7,
+      "group_label": "Oriental",
+      "num_samples": 14,
+      "accuracy": 0.2857142857142857,
+      "ks_stat": 0.35714285714285715,
+      "ks_pvalue": 0.3433204708275377,
+      "welch_t_stat": 0.3739711323341623,
+      "welch_t_pvalue": 0.7114738370296387,
+      "tv_distance": 0.037900544703006744,
+      "epsilon_empirical": 0.37180233001708984
+    },
+    {
+      "group_id": 8,
+      "group_label": "Other",
+      "num_samples": 527,
+      "accuracy": 0.4971537001897533,
+      "ks_stat": 0.3510436432637571,
+      "ks_pvalue": 3.275464899987492e-29,
+      "welch_t_stat": -14.937226205380071,
+      "welch_t_pvalue": 3.570544907683077e-44,
+      "tv_distance": 0.26197534799575806,
+      "epsilon_empirical": 3.12255859375
+    }
+  ]
+}
